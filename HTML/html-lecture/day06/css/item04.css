@@ -2,6 +2,15 @@ body {
   font-family: "Noto Sans KR";
   font-weight: 500;
 }
+body .item-list {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
 body .item {
   width: 300px;
   border: 2px solid green;
